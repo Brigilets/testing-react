@@ -54,3 +54,5 @@ test("it calls onUserAdd when the form is submitted", async () => {
   expect(mock).toHaveBeenCalled();
   expect(mock).toHaveBeenCalledWith({ name: "jane", email: "jane@jane.com" });
 });
+
+test("the input fields are umptied upon submittion");
